@@ -3,7 +3,7 @@ import "./footer.css"
 export const Footer = () => {
   return (
    <div>
-                     <ul className="example-2">
+  <ul className="example-2">
   <li className="icon-content">
     <a
       href="https://linkedin.com/"

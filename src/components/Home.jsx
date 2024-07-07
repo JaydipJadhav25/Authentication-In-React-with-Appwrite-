@@ -1,11 +1,31 @@
-import Card from "./Card";
-import Footer from "./Footer";
+
+// import { useEffect } from "react";
+// import Card from "./Card";
+
 import './home.css'
+
+// import { useSelector  , useDispatch} from "react-redux";
+// import { currentUser } from "../redux/slices/user";
+
+
+
 
 
 
 export const Home = () => {
+  // const status = useSelector(s => s.auth.status)
+  // const  { currentuser} = useSelector(s => s.auth)
+
   
+  // console.log("status : " , status)
+  // console.log("cureent user : " , currentuser.cuurentuser
+  // );
+
+  // const dispatch = useDispatch();
+
+  // useEffect(()=>{
+  // dispatch(currentUser());
+  // },[])
 
 
 
@@ -15,17 +35,9 @@ export const Home = () => {
     <div className="home">
 
        
-       <Card/>
-    
+    hiii
        
-       
-
-
-       
-       
-
-
-       <Footer/>
+     
     </div>
 
   )

@@ -1,7 +1,7 @@
 import { useState  } from "react";
 import { useDispatch } from "react-redux";
 import "./signup.css"
-import { createUser } from "../redux/slices/user";
+import { createUser, loginUser } from "../redux/slices/user";
 // import {useNavigation} from "react-router-dom"
 
 export const Signup = () => {
@@ -19,6 +19,7 @@ function hanlderSubmit(e){
   e.preventDefault()
   console.log("data : " , data);
   dispatch(createUser(data));
+  dispatch(loginUser(data));
   
 }
 
